@@ -14,6 +14,7 @@ video no youtube acessado em 07/12/2024:
 https://youtu.be/PbgVbCb3zuE?si=DPP_0khuoy58o13k
 com objetivo de tornar o deploy mais ágil!
 
+imagens utilizadas geradas por MetaIa do Facebook.
 
 Desenvolvedores:
 Lucas Denner

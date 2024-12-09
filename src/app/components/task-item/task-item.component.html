@@ -1,12 +1,18 @@
+<!--
 <p  class="lead my-3">
     {{tarefa.tarefa}}
 </p>
-<!--div class="task">
+-->
+<div class="task" 
+    (dblclick)="onToggle(tarefa)">
+    <!--[ngClass]="{reminder:tarefa.concluido}"-->
+
     <p  class="lead my-3">
         {{tarefa.tarefa}} 
-        <button class="material-symbols-outlined text-danger" (click)="onDelete(tarefa)"> close  </button>
+        <a class="btn material-symbols-outlined text-danger text-right" 
+        (click)="onDelete(tarefa)"> X  </a>
     </p>
     <h5>
         {{tarefa.categoria}}
     </h5>
-</div-->
+</div>
