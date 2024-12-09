@@ -156,17 +156,17 @@ h1, h2, h3, h4, h5, h6 {
 	--primary-color: red;
 	--text-color: #f4f4f4;
 	--cor-de-fundo:#000000;
+  --bg-texto:darkgreen;
 }
 body{
 	body-bg: var(--cor-de-fundo)!important;
 }
-
-
-/* Sobrescrever o breakpoint sm /
-@media (min-width: 500px) {
-    .container-sm {
-        max-width: 500px;
-    }
+/* Sobrescrever o breakpoint sm  
+@media (min-width: 560px) {
+  .container-sm {
+      max-width: 560px;
+  }
+} 
     .col-sm-1 {
         flex: 0 0 8.333333%;
         max-width: 8.333333%;
@@ -174,11 +174,11 @@ body{
     .col-sm-2 {
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
-    }
+    }*/
     /* Continue para todas as colunas e outras classes sm necessárias 
 }
 }
-*/
+
 
 /* Estilizando qualquer classe que dependa do breakpoint SM */
 /*css*/
